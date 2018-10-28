@@ -1,5 +1,20 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="card">
+  <ul>
+    {{#each model as |task|}}
+      <li>
+        <div class="row">
+          <div>
+            <b> Task Id </b> #{{task.task_id}}
+          </div>
+          <div>
+            <b> Task Description </b> {{task.task}}
+          </div>
+          <div>
+            <b> Is Completed </b> {{task.is_completed}}
+          </div>
+          <br>
+        </div>
+      </li>
+    {{/each}}
+  </ul>
+</div>

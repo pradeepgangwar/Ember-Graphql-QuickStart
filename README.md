@@ -1,7 +1,6 @@
-# ember-graphql-quickstart
+# Ember-GraphQL-Quickstart
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This README outlines the details of collaborating on this Ember application. This application uses GraphQL. It uses [Hasura GraphQL Engine](https://github.com/hasura/graphql-engine) for graphql server and [Ember Apollo Client](https://github.com/bgentry/ember-apollo-client). It uses 
 
 ## Prerequisites
 
@@ -10,9 +9,11 @@ You will need the following things properly installed on your computer.
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with npm)
 * [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+* [Hasura GraphQL Engine](https://github.com/hasura/graphql-engine)
 
 ## Installation
+
+After you have Hasura Graphql engine ready either on Docker or Heroku, you can proceed with the following commands to setup ember application to render your frontend.
 
 * `git clone <repository-url>` this repository
 * `cd ember-graphql-quickstart`
@@ -42,10 +43,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 

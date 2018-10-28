@@ -1,0 +1,10 @@
+query tasksQuery {
+  tasks(
+    where: { is_completed: {_eq: false}}
+    order_by: task_id_desc
+  ) {
+    task_id
+    task
+    is_completed
+  }
+}
