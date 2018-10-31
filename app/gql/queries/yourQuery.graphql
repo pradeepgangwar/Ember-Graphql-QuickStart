@@ -1,0 +1,8 @@
+query yourQuery {
+  yourQuery(
+    order_by: desc_id
+  ) {
+    prop1
+    prop2
+  }
+}

@@ -1,16 +1,16 @@
 <div class="card">
   <ul>
-    {{#each model as |task|}}
+    {{#each model as |result|}}
       <li>
         <div class="row">
           <div>
-            <b> Task Id </b> #{{task.task_id}}
+            <b> Id </b> #{{result.id}}
           </div>
           <div>
-            <b> Task Description </b> {{task.task}}
+            <b> prop1 </b> {{result.prop1}}
           </div>
           <div>
-            <b> Is Completed </b> {{task.is_completed}}
+            <b> Prop2 </b> {{result.prop2}}
           </div>
           <br>
         </div>

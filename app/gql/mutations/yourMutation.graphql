@@ -1,0 +1,7 @@
+mutation sampleMutation($ep: Episode!, $review: ReviewInput!) {
+  sampleMutation(episode: $ep, review: $review) {
+    review {
+      ...ReviewFragment
+    }
+  }
+}
